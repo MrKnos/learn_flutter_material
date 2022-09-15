@@ -25,6 +25,9 @@ class CounterPage extends StatelessWidget {
     final bloc = context.read<CounterBloc>();
 
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Counter Page'),
+      ),
       body: SizedBox.expand(
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
