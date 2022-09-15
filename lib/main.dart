@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_flutter_material/counter_page.dart';
+import 'package:learn_flutter_material/pages/counter_page/counter_page.dart';
 
 void main() {
   runApp(const App());
